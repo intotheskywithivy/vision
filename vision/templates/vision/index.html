@@ -4,3 +4,18 @@
 <header>
   <h1 style="text-align: center">Home</h1>
 </header>
+
+<table align="center">
+  <tr>
+    <th>User</th>
+    <th>Title</th>
+    <th>Time</th>
+  </tr>
+  {% for post in post_filter %}
+  <tr>
+    <td>{{ post.post_user }}</td>
+    <td>{{ post.post_title }}</td>
+    <td>{{ post.post_time }}</td>
+  </tr>
+  {% endfor %}
+</table>
