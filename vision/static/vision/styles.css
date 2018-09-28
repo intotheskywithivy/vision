@@ -1,11 +1,13 @@
+body {
+  background: linear-gradient(-90deg, rgb(204,102,255), rgb(255,102,102));
+}
 th {
-  background-color: rgb(255,215,0);
+  background-color: rgb(60,179,113);
 }
 td {
-  background-color:	rgb(218,165,32);
+  background-color:	rgb(46,139,87);
 }
 td a {
-  background-color:	rgb(218,165,32);
   color: black;
   text-decoration: none;
 }
