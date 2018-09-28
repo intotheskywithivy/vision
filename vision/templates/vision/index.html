@@ -5,7 +5,11 @@
   <h1 style="text-align: center">Home</h1>
 </header>
 
-<table align="center">
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/static.css' %}">
+
+<table style="width:60%" align="center">
   <tr>
     <th>User</th>
     <th>Title</th>
