@@ -9,3 +9,9 @@ td a {
   color: black;
   text-decoration: none;
 }
+p.postbody {
+  margin-left: 15%;
+  border: 2px solid;
+  width: 70%;
+  word-wrap: break-word;
+}

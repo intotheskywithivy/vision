@@ -11,8 +11,7 @@
   <tr>
     <th>{{ post.post_user }} - {{ post.post_title }}</th>
   </tr>
-  <tr>
-    <td>{{ post.post_body }}</td>
-  </tr>
-  {% endfor %}
 </table>
+
+<p class="postbody">{{ post.post_body }}</p>
+{% endfor %}
