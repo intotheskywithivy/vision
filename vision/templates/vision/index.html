@@ -17,9 +17,9 @@
   </tr>
   {% for post in post_filter %}
   <tr>
-    <td class="indexinfo">{{ post.post_user }}</td>
-    <td class="indexinfo">{{ post.post_title }}</td>
-    <td class="indexinfo">{{ post.post_time }}</td>
+    <td>{{ post.post_user }}</td>
+    <td><a href="{% url 'vision:post_detail' post.post_id %}">{{ post.post_title }}</a></td>
+    <td>{{ post.post_time }}</td>
   </tr>
   {% endfor %}
 </table>

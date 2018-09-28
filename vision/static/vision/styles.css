@@ -1,7 +1,11 @@
 th {
   background-color: rgb(255,215,0);
 }
-
-td.indexinfo {
+td {
   background-color:	rgb(218,165,32);
+}
+td a {
+  background-color:	rgb(218,165,32);
+  color: black;
+  text-decoration: none;
 }
