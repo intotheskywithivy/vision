@@ -9,9 +9,15 @@
 
 <table style="width:60%" align="center">
   <tr>
-    <th>{{ post.post_user }} - {{ post.post_title }}</th>
+    <th id="top">{{ post.post_user }} - {{ post.post_title }}</th>
   </tr>
 </table>
 
 <p class="postbody">{{ post.post_body }}</p>
 {% endfor %}
+
+<table>
+  <tr>
+    <td style="border: 2px solid"><a href="#top">Top of page</a></td>
+  </tr>
+</table>

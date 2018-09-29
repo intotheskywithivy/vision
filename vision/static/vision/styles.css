@@ -12,8 +12,10 @@ td a {
   text-decoration: none;
 }
 p.postbody {
+  font-family: 'Helvetica';
   margin-left: 15%;
   border: 2px solid;
   width: 70%;
   word-wrap: break-word;
+  background-color: rgb(255,255,255);
 }
